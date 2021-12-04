@@ -1,9 +1,12 @@
-import React from "react";
-
+import React, {useState} from "react";
+import Header from "./newComponent/Header";
+import MovieBlock from './newComponent/MovieBlock'
 function App() {
+
   return (
     <div className="App">
-      <h1>qd</h1>
+        <Header/>
+        <MovieBlock/>
     </div>
   );
 }
