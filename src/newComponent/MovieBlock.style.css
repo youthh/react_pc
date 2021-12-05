@@ -26,6 +26,7 @@
 .block_item-movie-reiting{
     max-width: 400px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .menu_movie-link-reit{
@@ -39,4 +40,52 @@
 .link_reit-active{
     background-color: #161617;
     text-decoration: underline;
+}
+
+/* containers__inem-movie*/
+
+.containers__inem-movie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie_item{
+    margin-bottom: 40px;
+    max-width: 187px;
+    width: 100%;
+}
+
+.movie_item-img{
+    border: 1px solid #333;
+    padding: 4px;
+    display: block;
+}
+
+.movie__item-link{
+    color: #7507da;
+    display: block;
+    text-decoration: none;
+}
+
+.movie__year{
+    display: inline-block;
+    margin: 0;
+}
+
+.movie__genre{
+    margin: 0;
+}
+
+.block_item-describe-movie{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.movie__item-name{
+    margin: 6px 0;
 }
