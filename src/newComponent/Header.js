@@ -3,7 +3,11 @@ import  './Header.style.css';
 
 const Header = (props) => {
 
+
+
     return (
+
+
         <div className="header_block">
             <div className="container">
                 <div className="inner_header">
@@ -15,7 +19,7 @@ const Header = (props) => {
                                <div className="sub_div-menu">
                                    <ul className="muvie_subMenu">
                                        <li className="subMenu_item">
-                                           <a href="#">Action</a>
+                                           <a href="/Action">Action</a>
                                        </li>
                                        <li className="subMenu_item">
                                            <a href="#">Comedy</a>

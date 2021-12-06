@@ -58,17 +58,27 @@
 }
 
 .movie_item-img{
-    border: 1px solid #333;
-    padding: 4px;
+
+
     display: block;
 }
 
 .movie__item-link{
-    color: #7507da;
+    color: #9453ef;
     display: block;
     text-decoration: none;
+    border: 3px solid #333;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+
+    transition: .3s;
 }
 
+.movie__item-link:hover{
+    transform: scale(1.111);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .movie__year{
     display: inline-block;
     margin: 0;
