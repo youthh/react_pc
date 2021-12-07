@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import MovieItem from "./MovieItem";
 import './MovieBlock.style.css'
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, NavLink, Route, Routes} from "react-router-dom";
 import MovieItemInside from "../Movie/MovieItemInside";
 
 const MovieBlock = () => {
@@ -22,13 +22,13 @@ const MovieBlock = () => {
                             <div className="block_item-movie-reiting">
                                 <ul className="menu_movie">
                                     <li>
-                                        <a href="#" className={active}>The most populal</a>
+                                        <NavLink to="/popula" className={active}>The most populal</NavLink>
                                     </li>
                                     <li>
-                                        <a href="#" className={active}>The most oldest</a>
+                                        <NavLink to="old" className={active}>The most oldest</NavLink>
                                     </li>
                                     <li>
-                                        <a href="#" className={active}>Pending</a>
+                                        <NavLink to="new" className={active}>New</NavLink>
                                     </li>
                                 </ul>
                             </div>

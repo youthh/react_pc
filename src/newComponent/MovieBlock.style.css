@@ -7,7 +7,7 @@
     color: #fff;
     font-weight: 800;
     line-height: 30px;
-    margin: 0;
+
 }
 
 .block_item-movie{
@@ -36,11 +36,13 @@
     padding: 7px 12px;
 }
 
-
-.link_reit-active{
+.menu_movie-link-reit.active{
     background-color: #161617;
     text-decoration: underline;
 }
+
+
+
 
 /* containers__inem-movie*/
 
@@ -55,6 +57,7 @@
     margin-bottom: 40px;
     max-width: 187px;
     width: 100%;
+
 }
 
 .movie_item-img{
@@ -71,7 +74,7 @@
     padding: 10px;
     border-radius: 14px;
     box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
-
+    min-height: 350px;
     transition: .3s;
 }
 

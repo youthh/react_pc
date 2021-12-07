@@ -1,5 +1,6 @@
 import React from "react";
 import  './Header.style.css';
+import {NavLink} from "react-router-dom";
 
 const Header = (props) => {
 
@@ -14,12 +15,15 @@ const Header = (props) => {
                     <menu>
                         <ul className="menu">
                             <li>
+                                <NavLink to="MoviesBlock" className="menu_link">Home</NavLink>
+                            </li>
+                            <li>
                                 <a href="#" className="menu_link">movie</a>
 
                                <div className="sub_div-menu">
                                    <ul className="muvie_subMenu">
                                        <li className="subMenu_item">
-                                           <a href="/Action">Action</a>
+                                           <NavLink to="/Action">Action</NavLink>
                                        </li>
                                        <li className="subMenu_item">
                                            <a href="#">Comedy</a>
@@ -48,7 +52,7 @@ const Header = (props) => {
                                </div>
                             </li>
                             <li>
-                                <a href="#" className="menu_link">Cartoons</a>
+                                <NavLink to="#" className="menu_link">Cartoons</NavLink>
 
                                 <div className="sub_div-menu">
                                     <ul className="muvie_subMenu">
