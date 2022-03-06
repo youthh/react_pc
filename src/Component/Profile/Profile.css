@@ -1,0 +1,21 @@
+.profile_img{
+    width: 13%;
+    display: block;
+    border: 2px solid #111;
+    padding: 6px;
+    border-radius: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+
+}
+
+.login_profile{
+    color: #fff;
+}
+
+.email_profile{
+    color: #ffffff;
+}
+
+.litel{
+    color: #111;
+}

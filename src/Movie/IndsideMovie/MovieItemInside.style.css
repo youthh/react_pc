@@ -1,0 +1,33 @@
+.movie-inside-block{
+    color: #c2c2c2;
+}
+
+.movie-inside-block.lite{
+    color: #030303;
+}
+
+.movie_item-describe{
+    max-width: 800px;
+    width: 100%;
+}
+.movie_block{
+    max-width: 790px;
+    width: 100%;
+    min-height: 460px;
+
+    margin-bottom: 10px;
+}
+
+.comment-title{
+    font-size: 20px;
+}
+
+.title_about-movie{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.movie_name{
+    font-size: 22px;
+    margin-bottom: 1px;
+}
