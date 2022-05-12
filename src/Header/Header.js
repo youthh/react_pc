@@ -75,27 +75,29 @@ const Header = (props) => {
                                                 <NavLink to="Movies/Action">Action</NavLink>
                                             </li>
                                             <li className="subMenu_item">
-                                                <a href="#">Comedy</a>
+                                                <NavLink to="Movies/Comedy">Comedy</NavLink>
                                             </li>
                                             <li className="subMenu_item">
-                                                <a href="#">Thriller</a>
+                                                <NavLink to="Movies/Thriller">Thriller</NavLink>
+
                                             </li>
                                             <li className="subMenu_item">
-                                                <a href="#">Sport</a>
+                                                <NavLink to="Movies/Sport">Sport</NavLink>
                                             </li>
                                         </ul>
                                         <ul className='muvie_subMenu'>
                                             <li className="subMenu_item">
-                                                <a href="#">Fantasy</a>
+                                                <NavLink to="Movies/Fantasy">Fantasy</NavLink>
+
                                             </li>
                                             <li className="subMenu_item">
-                                                <a href="#">Horror</a>
+                                                <NavLink to="Movies/Horror">Horror</NavLink>
                                             </li>
                                             <li className="subMenu_item">
-                                                <a href="#">Adventure</a>
+                                                <NavLink to="Movies/Adventure">Adventure</NavLink>
                                             </li>
                                             <li className="subMenu_item">
-                                                <a href="#">Fantastic</a>
+                                                <NavLink to="Movies/Fantastic">Fantastic</NavLink>
                                             </li>
                                         </ul>
                                     </div>

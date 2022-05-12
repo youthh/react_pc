@@ -3,7 +3,7 @@ import GoogleLogin from "react-google-login";
 import {useNavigate} from "react-router-dom";
 import {setUser} from "../../slices/authSlice";
 import {useDispatch} from "react-redux";
-import {setUserDataBase} from "../../slices/userSlice";
+
 
 
 const GoogleAuth = () => {
@@ -13,15 +13,13 @@ const GoogleAuth = () => {
 
     const responseGoogle = (response) => {
         dispatch(setUser(response.profileObj));
-        dispatch(setUserDataBase(response.profileObj))
-
         navigate('/Movies')
     }
 
     return(
         <GoogleLogin
             clientId={clientId}
-            buttonText="Login"
+            buttonText="Login with Google"
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
             cookiePolicy={'single_host_origin'}
