@@ -39,7 +39,7 @@ html{
 
 .lay{
   background-color: var(--bg-dark);
-  min-height: 750px;
+  min-height: 100vh;
   height: auto;
 }
 

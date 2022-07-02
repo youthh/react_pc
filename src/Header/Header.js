@@ -66,7 +66,7 @@ const Header = (props) => {
                                     <NavLink to="News" className="menu_link">News</NavLink>
                                 </li>
                                 <li className={props.type ? 'li-hover' : 'li-hover lite' }>
-                                    <NavLink to="Movies"
+                                    <NavLink to="Movies/"
                                              className={props.type ? 'menu_link' : 'menu_link lite' }>movies</NavLink>
 
                                     <div className={ props.type ? 'sub_div-menu' : 'sub_div-menu lite'}>

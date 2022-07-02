@@ -23,8 +23,8 @@ function App(){
                 <Routes>
                     <Route path={'/news'} element={<PostContainer/>}/>
                     <Route path={'/login'} element={<LoginF/>}/>
-                    <Route path= {"Movies/:movieName/:idMov" }  element={<RedMovieContainer />}/>
-                    <Route path='/Movies' element={<MovieBlockContainer />}/>
+                    <Route path= {"Movies/:genre/:movieName/:idMov" }  element={<RedMovieContainer />}/>
+                    <Route path='/Movies/' element={<MovieBlockContainer />}/>
                     <Route path='/Serials' element={<h1 className="serial">No Serials yet</h1>}/>
                     <Route path='Profile' element={<Profile/>}/>}/>
                     <Route path='/Movies/:movCategory' element={<CategoryMovie/>}/>
