@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Route,  Routes} from "react-router-dom";
 import '../src/Header/Header.style.css'
 import RedMovieContainer from "./Movie/IndsideMovie/RedMovieContainer";
@@ -15,6 +15,9 @@ import CategoryMovie from "./Movie/CategoryMovie/CategoryMovie";
 
 function App(){
 
+    useEffect(() => {
+        document.title = 'Movies'
+    }, [])
     return (
 
         <div className="App">

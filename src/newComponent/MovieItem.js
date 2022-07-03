@@ -7,7 +7,6 @@ import {NavLink, useParams} from "react-router-dom";
 const MovieItem = (props) => {
 
     let genre = useParams()
-    console.log(genre.movCategory)
 
     return (
 
