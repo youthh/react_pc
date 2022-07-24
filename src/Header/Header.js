@@ -63,7 +63,7 @@ const Header = (props) => {
                         <menu>
                             <ul className="menu">
                                 <li className={props.type ? 'li-hover' : 'li-hover lite' }>
-                                    <NavLink to="News" className="menu_link">News</NavLink>
+                                    <NavLink to="Home" className="menu_link">Home</NavLink>
                                 </li>
                                 <li className={props.type ? 'li-hover' : 'li-hover lite' }>
                                     <NavLink to="Movies/"
@@ -173,7 +173,7 @@ const Header = (props) => {
                                 <div  onClick={() => props.setIsMenuOpen(o => !o)} className="user_room"><div className="ava">
                                     <img src={props.img ? props.img : "https://img.icons8.com/dusk/64/000000/small-smile.png"  }/>
                                 </div><p className="login_col">{props.login}</p></div>
-                                : <NavLink to={'/login'} className='login'>Log In</NavLink>}
+                                : <NavLink to={'/'} className='login'>Log In</NavLink>}
 
 
 

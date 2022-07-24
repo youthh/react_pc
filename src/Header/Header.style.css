@@ -125,6 +125,12 @@ menu li:hover > div {
     color: #fff;
 }
 
+.block{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
 .subMenu_item a{
     display: block;
     text-decoration: none;
