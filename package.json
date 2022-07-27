@@ -2,7 +2,6 @@
   "name": "react_pc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://youthh.github.io/react_pc",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",

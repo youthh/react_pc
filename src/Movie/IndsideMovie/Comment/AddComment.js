@@ -7,7 +7,7 @@ const AddComment = (props) => {
     return(
         <div className="block_add comment">
             <input ref={props.txtCom}  type="text" className="add_txt_comment"/>
-            <button onClick={()=> props.isAuth ? props.addCom() :  nav('/login') } className="add_comment">Add Comment</button>
+            <button onClick={()=> props.isAuth ? props.addCom() :  nav('/') } className="add_comment">Add Comment</button>
         </div>
     )
 }

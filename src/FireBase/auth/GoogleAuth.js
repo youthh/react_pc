@@ -12,6 +12,7 @@ const GoogleAuth = () => {
     const clientId = '318167226025-katjnh9atjt3ipuvlhl1p5nc6obc0tah.apps.googleusercontent.com';
 
     const responseGoogle = (response) => {
+
         dispatch(setUser(response.profileObj));
         navigate('/Movies')
     }
